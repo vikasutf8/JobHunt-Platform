@@ -32,6 +32,7 @@ export const registerCompany = async (req, res) => {
         console.log(error);
     }
 }
+//admin create many company so fetch all company list
 export const getCompany = async (req, res) => {
     try {
         const userId = req.id; // logged in user id
@@ -50,7 +51,7 @@ export const getCompany = async (req, res) => {
         console.log(error);
     }
 }
-// get company by id
+// get company by id and sepicific company profile
 export const getCompanyById = async (req, res) => {
     try {
         const companyId = req.params.id;
@@ -69,6 +70,7 @@ export const getCompanyById = async (req, res) => {
         console.log(error);
     }
 }
+
 export const updateCompany = async (req, res) => {
     try {
         const { name, description, website, location } = req.body;
