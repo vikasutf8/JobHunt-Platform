@@ -2,7 +2,11 @@
 
 JobHunt is a MERN (MongoDB, Express, React, Node.js) stack application that helps users search, apply, and track job opportunities. The platform aims to streamline the job search process by providing a user-friendly interface for job seekers to manage applications and recruiters to post job openings.
 
-### TEchnology Used:
+## Adding Workflow Project:
+![diagram-export-2-10-2025-4_50_24-PM](https://github.com/user-attachments/assets/d9c9712c-2bac-42e2-9674-55b701f2dc1c)
+
+
+### Technology Used:
 - React
 - React-redux ,Redux-toolkit
 - react-router dom
